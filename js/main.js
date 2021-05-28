@@ -12,7 +12,7 @@ let deposit = '5000';
 console.log('deposit: ', deposit);
 
 let mission = 'layout';
-console.log('mission: ', mission);
+alert(mission);
 
 
 let period = '2020-2021';

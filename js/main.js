@@ -8,11 +8,12 @@ console.log('income: ', income);
 let addExpenses = (1000 + 500 + 102);
 console.log('addExpenses: ', addExpenses);
 
-let deposit = '50000';
+let deposit = '5000';
 console.log('deposit: ', deposit);
 
 let mission = 'layout';
-alert(mission);
+console.log('mission: ', mission);
+
 
 let period = '2020-2021';
 console.log('period: ', period);

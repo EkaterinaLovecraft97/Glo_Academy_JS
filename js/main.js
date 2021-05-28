@@ -3,7 +3,7 @@ console.log('money: ', money);
 
 
 let income = '1000 dollars';
-alert(income);
+console.log('income: ', income);
 
 let addExpenses = (1000 + 500 + 102);
 console.log('addExpenses: ', addExpenses);

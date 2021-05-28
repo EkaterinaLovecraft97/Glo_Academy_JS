@@ -1,8 +1,17 @@
 body{
- background-color: rgb(248, 199, 92);
+ background-color: rgba(29, 95, 92, 0.219);
+ font-family: Arial, Helvetica, sans-serif;
 }
 h1{
  font-size: 35px;
- font-family: Arial, Helvetica, sans-serif;
- color: rgba(17, 17, 16, 0.733); 
+ color: rgba(141, 56, 141, 0.644); 
+ box-shadow: 0 0 10px rgba(47, 70, 70, 0.5);
+ border-radius: 20px;
+ text-align: center;
+}
+p{
+  box-shadow: 0 0 10px rgba(15, 171, 182, 0.425);
+  color: aqua;
+  border-radius: 20px;
+  text-align: center;
 }

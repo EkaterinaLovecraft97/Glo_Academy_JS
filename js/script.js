@@ -6,7 +6,7 @@ mission = '50000000000000';
 period = 6;
 
 console.log('money: ', money);
-console.log(typeof money);
+console.log('typeof money: ', typeof money);
 
 console.log('income: ', income);
 console.log(typeof income);

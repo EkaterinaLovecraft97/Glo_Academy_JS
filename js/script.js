@@ -1,9 +1,10 @@
+
 let money = 6000000,
-  income = 'freelance';
-addExpenses = 'internet, taxi, communal';
-deposit = Boolean(10 > 9);
-mission = '50000000000000';
-period = 6;
+  income = 'freelance',
+  addExpenses = 'internet, taxi, communal',
+  deposit = Boolean(10 > 9),
+  mission = '50000000000000',
+  period = 6;
 
 console.log('money: ', money);
 console.log('typeof money: ', typeof money);

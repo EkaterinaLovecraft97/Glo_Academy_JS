@@ -4,19 +4,12 @@ function isNumber(n) {
   let regExp = new RegExp('^[0-9]+$');
   return regExp.test(n) || !n;
 }
-//const isNumber = (n) => {
-//return /^-?[\d.]+(?:e-?\d+)?$/.test(n);
-//};
 
 function isString(str, comma = false) {
   let regExp = comma ? /^[, а-яА-ЯёЁa-zA-Z]+$/ : /^[ а-яА-ЯёЁa-zA-Z]+$/;
   return regExp.test(str) || !str;
 }
 
-/*const isString = (str, comma = false) => {
-  const pattern = comma ? /^[, а-яА-ЯёЁa-zA-Z]+$/ : /^[ а-яА-ЯёЁa-zA-Z]+$/;
-  return pattern.test(str);
-};*/
 
 let money,
   start = () => {

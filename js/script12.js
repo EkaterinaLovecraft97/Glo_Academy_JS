@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
         completed = document.querySelector('#completed');
     // todoItem = document.querySelector('.todo-item');
     //localStorage:Данные cохраняются после перезапуска браузера и даже ОС.
-
+    //btnAdd.addEventListener('click', function () {
+    // if (!headerInput.value) return;
     let todoList = localStorage.getItem('todoList') ? JSON.parse(localStorage.getItem('todoList')) : {
         todo: [],
         completed: []
@@ -19,8 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(todoList);
     };
 
-
-    const newTodo = todoText => {
+    let newTodo = todoText => {
         const moveTodo = () => {
             const elem = event.target.parentNode.parentNode;
             if (elem.parentNode.className === 'todo') {
@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             addToStorage();
         };
+
 
         const removeTodo = () => {
             const elem = event.target.parentNode.parentNode;

@@ -5,10 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         headerInput = document.querySelector('.header-input'),
         todo = document.querySelector('#todo'),
         completed = document.querySelector('#completed');
-    // todoItem = document.querySelector('.todo-item');
+
     //localStorage:Данные cохраняются после перезапуска браузера и даже ОС.
-    //btnAdd.addEventListener('click', function () {
-    // if (!headerInput.value) return;
     let todoList = localStorage.getItem('todoList') ? JSON.parse(localStorage.getItem('todoList')) : {
         todo: [],
         completed: []
